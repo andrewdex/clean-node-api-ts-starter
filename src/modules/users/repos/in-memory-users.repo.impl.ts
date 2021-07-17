@@ -13,7 +13,6 @@ export class InMemoryUsersRepo implements UserRepository {
 
   get(id: number) {
     const user = this.usersObject.find((user) => user.id === id);
-
     return user || null;
   }
 }

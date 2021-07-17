@@ -14,6 +14,6 @@ export class CreateUserController extends BaseController {
 
     const userCreated = await this.useCase.createUser(userObj);
 
-    return res.status(201).json(userCreated);
+    return res.status(200).json(userCreated);
   }
 }

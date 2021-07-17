@@ -9,9 +9,6 @@ export class GetUserUseCase implements GetUser {
   }
   getUser(userId: number) {
     const user = this.userRepository.get(userId);
-
-    console.log('Gotcha', user);
-
     return user;
   }
 }

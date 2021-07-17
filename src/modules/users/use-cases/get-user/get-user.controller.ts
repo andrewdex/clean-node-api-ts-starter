@@ -16,10 +16,10 @@ export class GetUserController extends BaseController {
       const user = this.useCase.getUser(userId);
 
       if (!user) {
-        return res.status(404).json({ message: 'User not found' });
+        return this.notFound(res, 'User not found');
       }
 
-      return res.status(200).json(user);
+      return this.ok(res, user);
     }
   }
 }
