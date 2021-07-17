@@ -5,8 +5,7 @@
     "lib": [
       "es6"
     ],
-    "allowJs": true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "rootDir": "src",
     "strict": true,
     "noImplicitAny": true,
