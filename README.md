@@ -1,9 +1,11 @@
-# minimal-typescript-starter
-Minimal Typescript Starter - The Most Simplest TS Starter you can ever find :)
+# Clean-NodeAPI-TypeScript-Starter
+
+Clean Architecture Based NodeJS API Typescript Starter
 
 Getting Started?
 
-Install Dependencies... 
+Install Dependencies...
+
 ```
 yarn
 ```
@@ -19,4 +21,3 @@ Run the production version
 ```
 yarn start
 ```
-
